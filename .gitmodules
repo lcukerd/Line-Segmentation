@@ -1,3 +1,12 @@
 [submodule "Alireza"]
 	path = Alireza
-	url = ./Alireza
+	url = https://github.com/lcukerd/Alireza.git
+[submodule "Louloudis"]
+	path = Louloudis
+	url = https://github.com/lcukerd/Louloudis.git
+[submodule "Suleman"]
+	path = Suleman
+	url = https://github.com/lcukerd/Suleman.git
+[submodule "Papvassiliou"]
+	path = Papvassiliou
+	url = https://github.com/lcukerd/Papvassiliou.git
