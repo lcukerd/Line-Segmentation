@@ -49,9 +49,9 @@ def performComputation(fileName):
     else:
         count = getCountNorm(fileName);
     try:
-        countLou = performLouloudisSegmentation(fileName);
+        countLou = performLouloudisSegmentation(fileName, debug);
     except:
-        print (fileName);
+        print ('Errored for ' + fileName);
         countLou = count;
     if (countLou <= count + 5 and countLou >= count - 5):
         if (debug == 'd'):
