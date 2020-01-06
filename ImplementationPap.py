@@ -49,7 +49,7 @@ def performComputation(fileName):
     else:
         count = getCountNorm(fileName);
     try:
-        countPap = performPapvassiliouSegmentation(fileName);
+        countPap = performPapvassiliouSegmentation(fileName, count, False);
     except:
         print (fileName);
         countPap = count;
